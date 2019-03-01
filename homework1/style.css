@@ -1,0 +1,101 @@
+#right{
+  width:540px;
+  height:280px;
+  background-color:white;
+  }
+
+#main{
+  width:200px;
+  height:280px;
+  background-color:white;
+  text-align:center;
+  margin-top:20;
+  }
+
+#input{
+  width:160px;
+  height:32px;
+  margin-top:13px;
+  border-radius:3px;
+  border: 1px solid #c2c2a3;
+ 
+}
+
+#chose{
+  margin-top:25px;
+  border:4px black;
+  
+}
+
+.a{
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  text-decoration: none;
+}
+
+
+table, td {
+    border-bottom: 1px solid #c2c2a3;
+    border-collapse: collapse;
+  
+}
+th, td {
+    padding:4px;
+    text-align:center;
+}
+.kol{
+  width:40px;
+  height:30px;
+  border-radius:3px;
+  border: 1px solid #c2c2a3;
+  margin-left:7px;
+}
+.btn{
+  width:64px;
+  height:30px;
+  border-radius:2px;
+  border:1px;
+  background-color:gray;
+  color:white;
+  cursor: pointer;
+}
+.btn:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.b{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:center;
+}
+.head{
+  font-family: Arial, Helvetica, sans-serif;
+  color:grey;
+}
+.pic{
+   width:24px;
+  height:40px;
+}
+.pro{
+  margin-right:px;
+  cursor:pointer;
+  background-color:grey;
+  border-radius:2px;
+}
+#once{
+  margin-right:50px;
+}
+.c{
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  text-decoration: none;
+}
+.c:hover {
+    background-color: white;
+    color: blue;
+}
+#king{
+background-color:#262626;
+margin-left:400px;
+margin-top:250px;
+}

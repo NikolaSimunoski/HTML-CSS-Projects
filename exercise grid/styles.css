@@ -1,0 +1,70 @@
+.grid{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:  repeat(10, 100px);
+    grid-gap: 15px;
+    width: 70%;
+    margin: 0 auto;
+    grid-template-areas: 
+    
+    " fir sec thi for "
+    " six sec thi for "
+    " six sec eig for "
+    " six sev eig for "
+    " fif sev eig for "
+    " fif ten eig nin ";
+}
+.grid-part{
+ 
+   border-radius: 5px;
+   color:#33cccc;
+   font-size: 12px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border:1.5px solid #33cccc;
+   background-color: #222930;
+   font-size:40px;
+   text-shadow:5px 5px 10px #33cccc;
+   font-family: Courier New, monospace;
+}
+
+.grid :nth-child(1){
+    grid-area: fir;
+}
+
+.grid :nth-child(2){
+    grid-area: sec;
+}
+
+.grid :nth-child(3){
+    grid-area: thi;
+}
+
+.grid :nth-child(4){
+    grid-area: for;
+}
+
+.grid :nth-child(5){
+    grid-area: fif;
+}
+
+.grid :nth-child(6){
+    grid-area: six;
+}
+
+.grid :nth-child(7){
+    grid-area: sev;
+}
+
+.grid :nth-child(8){
+    grid-area: eig;
+}
+
+.grid :nth-child(9){
+    grid-area: nin;
+}
+
+.grid :nth-child(10){
+    grid-area: ten;
+}

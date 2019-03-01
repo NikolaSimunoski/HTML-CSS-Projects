@@ -1,0 +1,232 @@
+body{
+    margin: 0 auto;
+    width: 1400px;
+    height: 100%;
+    background-image: url(file:///C:/Users/blaze/Downloads/honeycomb-pattern-abstract-hd-wallpaper-1920x1080-1220.jpg);
+    background-position: top; 
+}
+header.menu{
+    display: flex;
+    margin-top: 100px;
+    float: left
+}
+
+div.drop ul li{
+    list-style: none;
+    border-bottom: 5px groove white;
+}
+div.drop a{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;  
+    font-size: 49px;
+       -webkit-animation: glow .4s infinite alternate;
+}
+ul.drop-drop-drop{
+    position: absolute;
+    display: none;
+}
+a.strelka{
+    position: relative;
+}
+li.drop-drop:hover ul.drop-drop-drop{
+    display: block;
+   
+}
+img.prva-slika{
+    height: 200px;
+    border-radius: 49px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 30px;
+ -webkit-box-shadow: 0px 0px 60px 0px rgba(255, 255, 255, 0.67);
+-moz-box-shadow:    0px 0px 60px 0px rgba(255, 255, 255, 0.67);
+box-shadow:         0px 0px 60px 0px rgba(255, 255, 255, 0.67);
+}
+ul.drop_menu{
+    margin: 0;
+    padding: 0;
+}
+div.bee{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border:5px groove white;
+    align-items: center;    
+    text-align: center;
+    grid-column-gap: 5px;
+
+}
+div.bee img{
+    width: 250px;
+    border-radius: 50%;
+}
+div.bottom{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 55px;
+}
+div.bottom img{
+    margin-top: 20px;
+}
+div.bottom span{
+    font-size: 20px;
+    text-align: -webkit-match-parent;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    /* margin-right: 10px; */
+    
+       
+
+}
+div.bee-videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 100px;
+    text-align: center;
+}
+div.gif{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+div.gif img{
+    height: 250px;
+    border-radius: 70%;
+    width: 61%;
+}
+
+     @-webkit-keyframes glow {
+       to {
+           text-shadow: 0 0 10px rgb(255, 255, 255);
+       }
+    }
+    div.bee-text{
+        font-size: 20px;
+        text-align: -webkit-match-parent;
+        color: white;
+        font-weight: bolder;
+        margin-bottom: 71px;
+        border-right:5px groove white;
+        font-weight: bolder;
+    }
+
+    div.bee-image img:hover{
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 30px;
+     -webkit-box-shadow: 0px 0px 60px 0px rgba(255, 154, 2, 0.67);
+    -moz-box-shadow:    0px 0px 60px 0px rgba(255, 154, 2, 0.67);
+    box-shadow:         0px 0px 60px 0px rgba(255, 154, 2, 0.67);
+    transition: all .5s ease-in-out;
+    }
+    div.tekst{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        border-left: 5px groove white;
+        border-right: 5px groove white;
+    }
+    div.bee-videos a{
+        font-size: 40px;
+    
+        text-decoration: none;
+    color: orange;
+    font-weight: bold;  
+    margin: 18px;
+       -webkit-animation: glow .4s infinite alternate;
+    }
+
+    div.bee-videos img:hover{
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 30px;
+     -webkit-box-shadow: 0px 0px 60px 0px rgba(255, 154, 2, 0.67);
+    -moz-box-shadow:    0px 0px 60px 0px rgba(255, 154, 2, 0.67);
+    box-shadow:         0px 0px 60px 0px rgba(255, 154, 2, 0.67);
+    transition: all .5s ease-out;
+    }
+
+    @import url('https://fonts.googleapis.com/css?family=Coiny');
+
+
+.cloud-text {
+        font-family: 'Coiny', cursive;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/clouds.jpg);
+        background-size: auto;
+        font-size: 88px;
+        animation: clouds-moving infinite 220s;
+        animation-fill-mode: forwards;
+        animation-play-state: running;
+        animation-timing-function: linear;
+        text-align: center;
+        border-bottom: 5px groove white;
+        margin: 0;
+        font-weight: bold;
+    }
+}
+@keyframes clouds-moving {
+	0% {
+		background-position: 0%;	
+	}
+	50% {
+		background-position: 100%;	
+	}
+	100% {
+		background-position: 0%;
+	}
+}
+.attribute {
+	position: relative;
+	font-size: 26px;
+	text-align: center;
+}
+div.naslov{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;  
+    font-size: 49px;
+       -webkit-animation: glow .4s infinite alternate;
+       
+}
+div.first-first{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;  
+    font-size: 49px;
+       -webkit-animation: glow .4s infinite alternate;
+}
+div.second-second{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;  
+    font-size: 49px;
+       -webkit-animation: glow .4s infinite alternate;
+}
+div.eden1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 72px;
+}
+input{
+    height: 50px;
+    width: 300px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 30px;
+ -webkit-box-shadow: 0px 0px 60px 0px rgba(255, 154, 2, 0.67);
+-moz-box-shadow:    0px 0px 60px 0px rgba(255, 154, 2, 0.67);
+box-shadow:         0px 0px 60px 0px rgba(255, 154, 2, 0.67);
+transition: all .5s ease-out;
+}
+input::placeholder{
+    text-align: center;
+    font-size: 20px;
+}

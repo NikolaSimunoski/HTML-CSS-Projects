@@ -1,0 +1,56 @@
+.box{
+  width:400px;
+  height:300px;
+  background-color:#E9E9Ec;
+  margin:40px;
+  text-align:center;
+  box-shadow:2px 3px 15px 2px;
+}
+  
+ img{
+  width:320px;
+   height:65px;
+   margin:20px;
+    
+  }
+
+.inp{
+   width:300px;
+   height:30px;
+   border-radius:2%;
+  padding: 3px;
+  border: auto;
+}
+
+
+#prvinput{
+  
+  
+  
+}
+#vtorinput{
+  margin-top:15px;
+ }
+#kopce{
+  width:120px;
+   height:35px;
+  margin-top:25px;
+  border-radius:3%;
+  background-color:#1097cc;
+  color:white;
+  font-weight: bold; 
+  border-radius: 5px;
+  border:none;
+  
+  }
+  a:hover{
+  opacity:0.5;
+  
+}
+#margini{
+   margin:auto;
+margin-top:10%;
+}
+#telo{
+background-color:#1a1a1a;
+}
